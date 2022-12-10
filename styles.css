@@ -1,0 +1,192 @@
+body {
+  width: 970px;
+  background-image: url("https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"), linear-gradient(to bottom, rgb(30, 75, 115), rgba(255, 255, 255, 0));
+  background-size: 1320px;
+}
+
+h2, h1 {
+  color: rgb(205, 208, 210);
+  font-size: 45px;
+  text-shadow: 14px 14px 18px #000000;
+}
+
+h3 {
+  font-size: 25px;
+  color: rgb(205, 208, 210);
+  text-shadow: 14px 14px 18px #000000;
+}
+
+.intro {
+  display: grid;
+  grid-template-rows: 20% 30% 30%;
+  grid-template-columns: 25% 50% 15%;
+}
+
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/21/12/33/a-tree-to-dry-4953729_960_720.jpg");
+  color: rgb(205, 208, 210);
+  width: 400px;
+  padding-top: 40px;
+  backdrop-filter: blur(10px);
+  box-shadow: 14px 14px 18px #000000;
+  position: fixed;
+  top: 0;
+  margin: 25px 0px 0px 360px;
+  z-index: 1;
+}
+
+header h1, h2 {
+  color: rgb(205, 208, 210);
+  text-shadow: 14px 14px 18px #000000;
+  backdrop-filter: blur(5px);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  margin: 120px 0px 0px 950px;
+  width: 250px;
+  height: 50px;
+  border: 2px solid rgb(210, 205, 205);
+  box-shadow: 14px 14px 18px #000000;
+}
+
+/*.wrapper{
+
+
+}*/
+nav {
+  display: none;
+}
+
+/*Breakpoint to next space $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.summary {
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/21/12/33/a-tree-to-dry-4953729_960_720.jpg");
+  margin-top: 10px;
+  box-shadow: 14px 14px 18px #000000;
+  color: rgb(205, 208, 210);
+  height: 200px;
+  width: 400px;
+  position: fixed;
+  right: 0;
+  margin: 340px 577px 0px 0px;
+}
+
+.summary p {
+  font-size: 23px;
+  font-weight: bold;
+  text-shadow: 14px 14px 18px #000000;
+  backdrop-filter: blur(5px);
+}
+
+.preamble {
+  width: 250px;
+  height: 460px;
+  grid-row: 2/4;
+  grid-column: 1/2;
+  color: rgb(205, 208, 210);
+  font-weight: bold;
+  border-left: 1px solid rgb(210, 205, 205);
+  padding-left: 4px;
+}
+
+footer {
+  display: block;
+  background-image: url("https://static6.depositphotos.com/1053932/550/i/600/depositphotos_5507425-stock-photo-transparency-mulberry-leaf-green-nature.jpg");
+  height: 90px;
+  width: 160px;
+  border: 10px solid transparent;
+  box-shadow: 14px 14px 18px #000000;
+  transform: rotate(5deg);
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: rgb(205, 208, 210);
+  font-weight: bold;
+}
+
+.zen-validate-css {
+  margin: 3px 0px 0px 20px;
+}
+
+.zen-license {
+  margin: 3px 0px 0px 50px;
+}
+
+.zen-accessibility {
+  margin: 3px 0px 0px 80px;
+}
+
+.zen-github {
+  margin: 3px 0px 0px 110px;
+}
+
+.zen-resources ul {
+  display: block;
+  background: url("https://cdn.glitch.global/f30fb230-39e1-42dc-b13f-8465305cfe37/hoja-verde.png?v=1670698214451");
+  height: 90px;
+  width: 160px;
+  border: 10px solid transparent;
+  box-shadow: 14px 14px 18px #000000;
+  transform: rotate(5deg);
+  border-top-right-radius: 10px 60px 50px 50px;
+}
+
+.zen-resources ul li {
+  list-style: none;
+}
+
+.zen-resources ul li a {
+  text-decoration: none;
+  color: rgb(205, 208, 210);
+}
+
+/*Breakpoint to next space $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#zen-supporting {
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-columns: 25% 50% 25%;
+  margin-top: 130px;
+}
+
+.explanation {
+  padding-right: 4px;
+  margin-top: 27px;
+  height: 350px;
+  width: 350px;
+  grid-column: 5/6;
+  grid-row: 1/2;
+  color: rgb(205, 208, 210);
+  border-right: 1px solid rgb(210, 205, 205);
+}
+
+.participation {
+  padding-left: 4px;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  color: rgb(205, 208, 210);
+  border-left: 1px solid rgb(210, 205, 205);
+  height: 610px;
+}
+
+.benefits {
+  grid-column: 5/6;
+  grid-row: 3/4;
+  margin-top: 80px;
+  border-right: 1px solid rgb(210, 205, 205);
+  height: 200px;
+  color: rgb(205, 208, 210);
+}
+
+#zen-requirements {
+  border-left: 1px solid rgb(210, 205, 205);
+  color: rgb(205, 208, 210);
+  grid-column: 1/2;
+  grid-row: 4/5;
+  height: 1000px;
+  padding-left: 4px;
+}
+
+/*# sourceMappingURL=styles.css.map */
